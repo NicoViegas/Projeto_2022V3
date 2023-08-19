@@ -1,6 +1,6 @@
 <?php
     class Conexao{
-        private static $dsn = 'Mermão, vou deixar isso aberto não';
+        private static $dsn = 'Mermão, vou deixar isso aberto não ';
         private static $usuario = '';
         private static $senha = '';
         private static $conexao = null;
