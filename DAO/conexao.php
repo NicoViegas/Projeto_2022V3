@@ -1,8 +1,8 @@
 <?php
     class Conexao{
-        private static $dsn = 'mysql:host=localhost;dbname=Panificadora_Alpha;port=3306;charset=utf8';
-        private static $usuario = 'root';
-        private static $senha = '147258369';
+        private static $dsn = 'Mermão, vou deixar isso aberto não';
+        private static $usuario = '';
+        private static $senha = '';
         private static $conexao = null;
 
         public static function getConexao() : PDO
