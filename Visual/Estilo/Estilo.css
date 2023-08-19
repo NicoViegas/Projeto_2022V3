@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+
+header{
+    display: flex;
+    background-color: #009929;
+    height: 70px;
+    border-bottom: 5px solid black;
+}
+
+nav{
+    text-align: right;
+}
+
+footer{
+    margin-top: 0px;
+    background-color: #f3aacb;
+    height: 70px;
+    border-top: 5px solid black;
+    background: "./Assets/gambiarra.png" no-repeat center center fixed;
+}
+
+a{  
+    display: inline;
+    color: black;
+    font-size: 35px;
+    font-weight: 500px;
+    font-family: "Fira Code";
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+label{
+    font-family: "Fira Code";
+    font-style: normal;
+    text-decoration: none;
+    height: 10px;
+}
+
+.Button{
+    display: inline-block;
+    background-color: #f8c7dc;
+    height: 40px;
+    line-height: 40px;
+    padding: 1px 8px 1px 8px;
+    box-shadow: 6px 8px 2px black;
+}
+
+#Logo{
+    background-color: #008000;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding-right: 6px;
+    box-shadow: 4px 4px 4px black;
+    display: inline-block;
+    font-size: 50px;
+    font-family: "Fira Code";
+    font-style: italic;
+}
+.gambiarra{
+    display: block;
+    position: relative;
+    background-color: #f8c7dc;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 2px 2px 2px 2px;
+}
+
+.broco{
+    align-content: center;
+    display: block;
+    position: relative;
+    background-color: #88a7d0;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 2px 2px 2px 2px;
+}
+h2{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    align-content: center;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Fira Code";
+    font-style: oblique;
+}
+
+.div_socials {
+    display: flex;
+    justify-content: left;
+    margin-left: 270px;
+}
+
+img{
+    align-items: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form{
+    height: 620px;
+    background-color: #98ff96;
+            background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmaksell.com.br%2Fuploads%2Fprodutos%2Fprodutos_galeria_5c000ebbb4adb.png&f=1&nofb=1");
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: center;
+
+}
+
+.form{
+    height: 620px;
+    background-image: none;
+    background-color: #98ff96;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.img_social {
+    position: relative;
+    bottom: 65px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
